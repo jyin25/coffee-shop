@@ -1,0 +1,37 @@
+.header-container {
+  height: 13rem; 
+  background-color: #121111;
+  display: flex;
+  align-items: center;
+  padding: .5rem 10rem .5rem 10rem;
+}
+
+.header-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.nav-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+
+.nav-text > li {
+  color: #f6ef9f;
+}
+
+.banner-picture {
+  height: 10rem;
+}
