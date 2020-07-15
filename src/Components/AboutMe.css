@@ -1,4 +1,75 @@
+
+
 .about-me-container {
-  height: 25rem;
-  background-color: white;
+  height: 22rem;
+  position: relative;
+
 }
+
+.video-text {
+  background-color: rgba(238,236,236,.65);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+video {
+  width: cover;
+  height: 100%;
+  position: absolute;
+  left: -50px;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+  .about-me-container {
+    height: 30rem;
+    background-color: white;
+    position: relative;
+    z-index: inherit;
+  }
+  
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    position: absolute;
+    top: -300px;
+    z-index: 1;
+  }
+  
+  .video-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font: white;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(238,236,236,.65);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 9rem 18rem 0 18rem;
+    
+  }
+}
+

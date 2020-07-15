@@ -5,8 +5,11 @@ class Menu extends React.Component {
   render() {
     return (
       <>
-        <div className="menu">
-          me
+        <div className="menu-container">
+          <div className="menu-opacity-container"></div>
+          <div className="menu-text-container">
+            <p>sdfsdfsdf</p>
+          </div>
         </div>
       </>
     )

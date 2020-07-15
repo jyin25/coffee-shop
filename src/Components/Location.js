@@ -6,7 +6,11 @@ class Location extends React.Component {
     return (
       <>
         <div className="location">
-          me
+          <div className="location-opacity"></div>
+
+          <div className="location-text-container">
+            <p>Location</p>
+          </div>
         </div>
       </>
     )

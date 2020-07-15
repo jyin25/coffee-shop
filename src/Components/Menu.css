@@ -1,4 +1,25 @@
-.menu {
+.menu-container {
   height: 25em;
-  background-color: brown;
+  background-image: url('https://dailycoffeenews.com/wp-content/uploads/2018/10/coffee-801781_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: 150% 100%;
+  position: relative;
 }
+
+.menu-opacity-container {
+  background-color: #2d1a00;
+  height: 100%;
+  width: 100%;
+  opacity: .2;
+  position: absolute;
+}
+
+.menu-text-container {
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
