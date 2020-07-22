@@ -6,7 +6,17 @@ class Footer extends React.Component {
     return (
       <>
         <div className="footer">
-          me
+          <div className="store-hour-container">
+            <p>Store Hours</p>
+            <ul>
+              <li>a</li>
+              <li>a</li>
+            </ul>
+          </div>
+          <div className="footer-location-container">
+            <p>Our Location</p>
+            <p></p>
+          </div>
         </div>
       </>
     )

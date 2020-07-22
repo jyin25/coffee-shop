@@ -35,9 +35,15 @@
   color: #f6ef9f;
 }
 
+@media only screen and (min-width: 500px) {
+  .banner-picture {
+    height: 6.8rem;
+  }
+}
 
 
-@media only screen and (min-width: 2201px) {
+
+@media only screen and (min-width: 1000px) {
   .header-container {
     height: 13rem; 
     background-color: #121111;
@@ -58,6 +64,8 @@
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
   }
   
   .nav-text {

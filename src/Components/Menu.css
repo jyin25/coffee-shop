@@ -1,16 +1,17 @@
 .menu-container {
-  height: 25em;
+  height: 25rem;
   background-image: url('https://dailycoffeenews.com/wp-content/uploads/2018/10/coffee-801781_1280.jpg');
   background-repeat: no-repeat;
-  background-size: 150% 100%;
+  background-size: cover;
   position: relative;
+  background-position: center center;
 }
 
 .menu-opacity-container {
-  background-color: #2d1a00;
+  background-color: rgb(41 27 27 / 65%);
   height: 100%;
   width: 100%;
-  opacity: .2;
+  opacity: 1;
   position: absolute;
 }
 
@@ -23,3 +24,32 @@
   width: 100%;
 }
 
+.menu-button {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 850px) {
+  .menu-text-container {
+    align-items: flex-end;
+  }
+
+  .menu-text-box {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .menu-container {
+    height: 35rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .menu-container {
+    height: 40rem;
+  }
+}

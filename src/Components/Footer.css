@@ -1,3 +1,31 @@
 .footer {
-  height: 10rem;
+  height: 21rem;
+  background-color: black;
+  color: #f6ef9f;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  align-items: center;
+}
+
+.store-hour-container > ul {
+  list-style-type: none;
+}
+
+.footer-location-container {
+  margin-top: 4em;
+}
+
+@media only screen and (min-width: 550px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: unset;
+    height: 16rem;
+  }
+  .footer-location-container {
+    margin-top: 0;
+  }
 }
