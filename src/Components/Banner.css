@@ -35,6 +35,15 @@
   color: #f6ef9f;
 }
 
+.nav-text > a {
+  text-decoration: none;
+  color: #f6ef9f;
+}
+
+.nav-text > a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 500px) {
   .banner-picture {
     height: 6.8rem;

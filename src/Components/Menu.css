@@ -26,10 +26,35 @@
 
 .menu-button {
   margin-top: 1rem;
-  width: 10rem;
-  height: 2rem;
-  border: 0;
-  border-radius: 8px;
+  border: 1px white solid;
+  padding: 8px;
+  width: 12rem;
+  border-radius: 5px;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+}
+
+.menu-text-box > a {
+  text-decoration: none;
+  color: white;
+}
+
+.arrow {
+  font-weight: 700;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .menu-text-container {
+    align-items: flex-end;
+  }
+
+  .menu-text-box {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 850px) {
@@ -52,4 +77,5 @@
   .menu-container {
     height: 40rem;
   }
+
 }

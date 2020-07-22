@@ -56,6 +56,14 @@ video {
     top: -400px;
     left: -600px;
   }
+
+  .video-text-box {
+    align-items: center;
+  }
+
+  .video-text-box > p {
+    margin-top: 3rem;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -91,7 +99,18 @@ video {
     height: 100%;
     width: 100%;
     background-color: rgba(238,236,236,.65);
-    
+  }
+
+  .menu-text-container {
+    padding-right: 8rem;
+  }
+
+  .location-text-container {
+    padding-left: 8rem;
+  }
+
+  .video-text-box > p {
+    margin-top: 5rem;
   }
 }
 

@@ -18,6 +18,15 @@
   margin-top: 4em;
 }
 
+.hour-list > li, .footer-location-container > p {
+  font-size: 14px;
+  color: #daba8b;
+}
+
+.store-hour-container > h3, .footer-location-container > h3 {
+  text-align: center;
+}
+
 @media only screen and (min-width: 550px) {
   .footer {
     flex-direction: row;
@@ -28,4 +37,13 @@
   .footer-location-container {
     margin-top: 0;
   }
+
+  .store-hour-container > h3, .footer-location-container > h3 {
+    text-align: -webkit-auto;
+  }
+
+  .footer {
+    height: 12rem;
+  }
+
 }

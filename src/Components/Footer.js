@@ -7,15 +7,16 @@ class Footer extends React.Component {
       <>
         <div className="footer">
           <div className="store-hour-container">
-            <p>Store Hours</p>
-            <ul>
-              <li>a</li>
-              <li>a</li>
+            <h3>Store Hours</h3>
+            <ul className="hour-list">
+              <li>Monday-Friday: 8:00am - 5:00pm</li>
+              <li>Saturday-Sunday: 6:00am - 5:00pm</li>
             </ul>
           </div>
           <div className="footer-location-container">
-            <p>Our Location</p>
-            <p></p>
+            <h3>Our Location</h3>
+            <p>1234 Friendship Way</p>
+            <p>San Diego, CA </p>
           </div>
         </div>
       </>
